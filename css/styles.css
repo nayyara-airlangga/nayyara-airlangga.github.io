@@ -37,6 +37,7 @@ h2 {
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
   color: #11999e;
 }
 
@@ -47,43 +48,73 @@ a {
 
 a:hover {
   color: #2bc4ad;
+  text-decoration: none;
 }
 
-.navbar {
+/* .navbar {
   padding: 10px 10px 10px 30px;
   width: 100%;
   background-color: #e4f9f5;
   display: flex;
   flex-direction: row;
   position: fixed;
+} */
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }
 
-.navbar ul {
-  position: absolute;
-  top: 2em;
-  right: 5em;
-  text-align: center;
-  flex-direction: row;
-  list-style-type: none;
-  margin: 0;
-  padding: 0 auto;
-  display: inline-block;
+.navbar-light .navbar-toggler {
+  color: #11999e;
+  border-width: 2px;
+  border-color: #11999e;
+}
+
+.navbar {
+  background-color: #e4f9f5;
+  position: sticky;
+  top: 0;
+  text-align: left;
+  line-height: 2.5;
 }
 
 .navbar ul li {
+  padding: 0 20px;
   display: inline-block;
-  padding-left: 50px;
 }
+
+/* .navbar ul { */
+/* position: absolute; */
+/* top: 2em; */
+/* right: 5em; */
+/* text-align: center; */
+/* flex-direction: row; */
+/* list-style-type: none; */
+/* margin: 0; */
+/* padding: 0 auto; */
+/* display: inline-block; */
+/* } */
+/*  */
+/* .navbar ul li { */
+/* display: inline-block; */
+/* padding-left: 50px; */
+/* } */
 
 .navbar-img {
   border-radius: 100%;
   width: 4em;
   height: 4em;
+  padding: 10px;
   display: inline-block;
 }
 
 .opening {
-  padding: 150px 0 10px;
+  padding: 0 0 10px;
   width: 80%;
   margin: auto;
 }
@@ -111,6 +142,7 @@ a:hover {
 .profile-image {
   border-radius: 100%;
   width: 200px;
+  margin-bottom: 40px;
 }
 
 .web-dev-image {
