@@ -152,7 +152,7 @@ a:hover {
 } */
 
 .dev-image {
-  padding-top: 50px;
+  padding: 5%;
   margin: auto;
 }
 
@@ -206,7 +206,7 @@ a:hover {
 
 .top-container {
   background-color: #e4f9f5;
-  padding: 0 30px 100px;
+  padding: 0 50px 100px;
 }
 
 .bottom-cloud {
