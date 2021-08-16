@@ -20,10 +20,10 @@ p {
 
 h1 {
   margin: auto;
-  font-family: "Sacramento", cursive;
-  font-size: 5.625rem;
+  font-family: "Lexend";
+  font-weight: 300;
+  font-size: 5.6rem;
   color: #66bfbf;
-  text-align: center;
   line-height: 2;
 }
 
@@ -115,13 +115,13 @@ a:hover {
 }
 
 .opening {
-  padding: 0 0 10px;
-  width: 80%;
-  margin: auto;
+  text-align: center;
 }
 
-.opening-image {
-  padding: 10px 0 50px;
+.opening-text {
+  margin: auto;
+  text-align: left;
+  padding: 50px;
 }
 
 .footer-link {
@@ -146,14 +146,14 @@ a:hover {
   margin-bottom: 40px;
 }
 
-.web-dev-image {
+/* .web-dev-image {
   width: 15em;
   padding: 70px 20px;
-}
+} */
 
-.mob-dev-image {
-  width: 15em;
-  padding: 70px 20px;
+.dev-image {
+  padding-top: 50px;
+  margin: auto;
 }
 
 .projects {
@@ -206,7 +206,7 @@ a:hover {
 
 .top-container {
   background-color: #e4f9f5;
-  padding: 100px auto;
+  padding: 0 30px 100px;
 }
 
 .bottom-cloud {
