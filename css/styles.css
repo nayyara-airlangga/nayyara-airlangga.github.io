@@ -140,10 +140,18 @@ a:hover {
   padding: 10px;
 }
 
+#about-me {
+  border-color: transparent;
+}
+
 .profile-image {
   border-radius: 100%;
   width: 200px;
   margin-bottom: 40px;
+}
+
+.profile {
+  padding: 0 0 30px;
 }
 
 /* .web-dev-image {
@@ -156,9 +164,42 @@ a:hover {
   margin: auto;
 }
 
+.work-section {
+  background-color: #11999e;
+  padding: 70px 0 20px;
+}
+
+.work-col{
+  margin: auto;
+  padding: 40px 0;
+}
+
+.work-hr {
+  border-color: #eeeeee;
+}
+
+.work-row{
+  width: 100%;
+}
+
+.row {
+  margin: 0;
+}
+
+.work-image {
+  width: 45%;
+}
+
+.work-desc {
+  color: #eeeeee;
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}
+
 .projects {
   background-color: #e4f9f5;
-  padding: 50px 0 10px;
+  padding: 50px 0 30px;
 }
 
 .project-row {
@@ -173,7 +214,7 @@ a:hover {
 }
 
 .contact-me {
-  padding: 50px 0 0;
+  padding: 70px 0 0;
 }
 
 .intro {
@@ -201,7 +242,7 @@ a:hover {
 
 .middle-container {
   margin: 50px 0;
-  padding: 100px 0 30px;
+  padding: 30px 0 30px;
 }
 
 .top-container {
