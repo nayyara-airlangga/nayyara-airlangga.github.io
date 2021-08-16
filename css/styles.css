@@ -8,7 +8,7 @@ body {
 
 hr {
   border-style: dotted;
-  border-color: lightslategrey;
+  border-color: transparent;
   border-bottom: none;
   border-width: 5px;
   width: 5%;
@@ -37,7 +37,7 @@ h2 {
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: #11999e;
 }
 
@@ -175,7 +175,7 @@ a:hover {
 }
 
 .work-hr {
-  border-color: #eeeeee;
+  border-color: transparent;
 }
 
 .work-row {
@@ -200,6 +200,19 @@ a:hover {
 .projects {
   padding: 50px 0 30px;
   background-color: #eaf6f6;
+}
+
+.project-desc {
+  margin: 20px 0 0;
+  text-align: justify;
+}
+
+.carousel-indicators li {
+  background-color: gray;
+}
+
+.carousel-indicators .active {
+  background-color: #11cdd4;
 }
 
 .project-row {
@@ -250,17 +263,6 @@ a:hover {
   padding: 0 50px 100px;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 21%;
-  top: 12.7%;
-}
-.top-cloud {
-  position: absolute;
-  right: 21%;
-  top: 12.7%;
-}
-
 .contact-message {
   width: 60%;
   margin: 40px auto;
@@ -277,13 +279,12 @@ a:hover {
   -moz-border-radius: 8px;
   border-radius: 8px;
   color: #ffffff;
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", serif;
   font-size: 18px;
-  font-weight: 100;
   padding: 12px;
-  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  /* -webkit-box-shadow: 1px 1px 20px 0 #000000;
   -moz-box-shadow: 1px 1px 20px 0 #000000;
-  box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000; */
   text-shadow: 1px 1px 20px #000000;
   border: solid #337fed 1px;
   text-decoration: none;
@@ -302,6 +303,7 @@ a:hover {
   background-image: -webkit-gradient(to bottom, #30e3ca, #2bc4ad);
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
+  color: #fff;
   border-radius: 8px;
   text-decoration: none;
 }
