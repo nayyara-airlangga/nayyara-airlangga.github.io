@@ -58,14 +58,14 @@
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
+        data-target="#profile-navbar"
+        aria-controls="profile-navbar"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="profile-navbar">
         <ul class="navbar-nav ml-auto">
           <li>
             <a href="#about-me">About Me</a>
@@ -118,37 +118,74 @@
           <br />
           Below are some of the projects I did in my free time:
         </p>
-        <div class="project-row">
-          <img class="calc-image" src="images/calculator.png" alt="calc-img" />
-          <h3>Mobile Calculator</h3>
-          <p>
-            This is a project I did as an experiment using Flutter. It’s a
-            mobile calculator which functions like a regular portrait-oriented
-            mobile calculator. Below is the link to the source code: <br />
-            <a
-              href="https://github.com/nayyara-airlangga/flutter-basic-calculator"
-              >https://github.com/nayyara-airlangga/flutter-basic-calculator</a
-            >
-          </p>
+        <div
+          id="projects-carousel"
+          class="carousel slide"
+          data-ride="false"
+          data-interval="5000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="project-row">
+                <img
+                  class="calc-image"
+                  src="images/calculator.png"
+                  alt="calc-img"
+                />
+                <h3>Mobile Calculator</h3>
+                <p>
+                  This is a project I did as an experiment using Flutter. It’s a
+                  mobile calculator which functions like a regular
+                  portrait-oriented mobile calculator. Below is the link to the
+                  source code: <br />
+                  <a
+                    href="https://github.com/nayyara-airlangga/flutter-basic-calculator"
+                    >https://github.com/nayyara-airlangga/flutter-basic-calculator</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="project-row">
+                <img
+                  class="shop-image"
+                  src="images/shopping-cart.png"
+                  alt="shop-img"
+                />
+                <h3>ArmaTab, A Weapons Shop App</h3>
+                <p>
+                  This is a mobile shop app for weapons I made using Flutter and
+                  Firebase and it is modeled after a project a fellow developer
+                  made. Below is the link to the source code: <br />
+                  <a href="https://github.com/nayyara-airlangga/flutter-armatab"
+                    >https://github.com/nayyara-airlangga/flutter-armatab</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#projects-carousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#projects-carousel"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <div class="project-row">
-          <img
-            class="shop-image"
-            src="images/shopping-cart.png"
-            alt="shop-img"
-          />
-          <h3>ArmaTab, A Weapons Shop App</h3>
-          <p>
-            This is a mobile shop app for weapons I made using Flutter and
-            Firebase and it is modeled after a project a fellow developer made.
-            Below is the link to the source code: <br />
-            <a href="https://github.com/nayyara-airlangga/flutter-armatab"
-              >https://github.com/nayyara-airlangga/flutter-armatab</a
-            >
-          </p>
-        </div>
+
+        <hr />
       </div>
-      <hr />
       <div class="contact-me" id="contact-me">
         <h2>Get In Touch</h2>
         <br />
