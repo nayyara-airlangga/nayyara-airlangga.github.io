@@ -159,6 +159,12 @@ a:hover {
   padding: 70px 20px;
 } */
 
+@media (max-width: 415px) {
+  .dev-image {
+    display: none;
+  }
+}
+
 .dev-image {
   padding: 2% 3% 2%;
   margin: auto;
