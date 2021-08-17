@@ -163,6 +163,10 @@ a:hover {
   .dev-image {
     display: none;
   }
+
+  .opening {
+    padding-bottom: 50px;
+  }
 }
 
 .dev-image {
