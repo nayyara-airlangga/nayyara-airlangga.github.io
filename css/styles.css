@@ -121,7 +121,7 @@ a:hover {
 .opening-text {
   margin: auto;
   text-align: left;
-  padding: 50px;
+  padding: 3% 3% 5%;
 }
 
 .footer-link {
@@ -160,7 +160,7 @@ a:hover {
 } */
 
 .dev-image {
-  padding: 5%;
+  padding: 2% 3% 2%;
   margin: auto;
 }
 
@@ -198,13 +198,20 @@ a:hover {
 }
 
 .projects {
-  padding: 50px 0 30px;
+  position: relative;
+  padding: 70px 0 30px;
   background-color: #eaf6f6;
 }
 
 .project-desc {
   margin: 20px 0 0;
-  text-align: justify;
+  text-align: center;
+}
+
+.carousel-indicators {
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .carousel-indicators li {
@@ -217,8 +224,8 @@ a:hover {
 
 .project-row {
   width: 50%;
-  margin: 100px auto;
-  text-align: left;
+  margin: 50px auto 100px;
+  text-align: center;
 }
 
 .project-intro {
@@ -235,17 +242,9 @@ a:hover {
   max-width: 60%;
 }
 
-.calc-image {
-  width: 25%;
-  height: 25%;
-  float: left;
-  margin-right: 30px;
-}
-.shop-image {
-  width: 25%;
-  height: 25%;
-  float: left;
-  margin-right: 30px;
+.project-image {
+  width: 10rem;
+  margin-bottom: 3rem;
 }
 
 .bottom-container {
@@ -260,7 +259,7 @@ a:hover {
 
 .top-container {
   background-color: #e4f9f5;
-  padding: 0 50px 100px;
+  padding: 0 50px 0;
 }
 
 .contact-message {
